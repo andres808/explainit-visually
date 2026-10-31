@@ -1,0 +1,66 @@
+{
+  "asset": "/demo/engine-ideogram.png",
+  "provider": "Ideogram",
+  "model": "ideogram-4-5",
+  "endpoint": "https://api.ideogram.ai/v2/image/generate/ideogram-4-5",
+  "quality": "medium",
+  "size": "1024x1024",
+  "numImages": 1,
+  "magicPrompt": "off",
+  "createdAt": "2026-10-31T00:00:17.254Z",
+  "elapsedMs": 14559,
+  "sha256": "b07eede14214cf215b9323c2921539ea4c18d000ffa3a0a838e5fd7521d46ee9",
+  "sourceAsset": "/generated/b07eede14214cf215b9323c2921539ea4c18d000ffa3a0a838e5fd7521d46ee9.png",
+  "usage": "Pre-generated seeded image for a curated demo. Opening this lesson does not perform a new API generation. Learning text is predefined.",
+  "labeling": {
+    "method": "Human-directed visual inspection of the generated image, followed by manually curated normalized coordinates.",
+    "normalizedCoordinates": true,
+    "hotspots": [
+      {
+        "componentId": "piston",
+        "x": 0.5,
+        "y": 0.465,
+        "observation": "Metal piston body beneath the ring pack."
+      },
+      {
+        "componentId": "spark",
+        "x": 0.5,
+        "y": 0.16,
+        "observation": "Central spark-plug assembly above the chamber."
+      },
+      {
+        "componentId": "crankshaft",
+        "x": 0.5,
+        "y": 0.82,
+        "observation": "Lower horizontal shaft through the crank assembly."
+      },
+      {
+        "componentId": "rod",
+        "x": 0.5,
+        "y": 0.65,
+        "observation": "Long central connecting rod."
+      },
+      {
+        "componentId": "cylinder",
+        "x": 0.612,
+        "y": 0.6,
+        "observation": "Right-hand cylinder liner wall beside the rod cavity."
+      }
+    ],
+    "omittedHotspots": [
+      {
+        "componentId": "intake",
+        "reason": "The generated blue upper assembly does not show an unambiguous valve head and seat; retain the conceptual component without a guessed position."
+      },
+      {
+        "componentId": "exhaust",
+        "reason": "The generated violet upper assembly does not show an unambiguous valve head and seat; retain the conceptual component without a guessed position."
+      }
+    ]
+  },
+  "limitations": [
+    "The generated scientific depiction has not been independently verified.",
+    "The valve and ignition depictions are stylized and may be physically imperfect.",
+    "Original SVG engine style variants use a different geometry and their own hotspot map."
+  ]
+}

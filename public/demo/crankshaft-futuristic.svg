@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img">
+<defs>
+<radialGradient id="bg"><stop stop-color="#251a46"/><stop offset="1" stop-color="#090d20"/></radialGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8e9f7"/><stop offset=".23" stop-color="#a4aad7"/><stop offset=".5" stop-color="#3a536c"/><stop offset=".72" stop-color="#9cb7cc"/><stop offset="1" stop-color="#314c65"/></linearGradient>
+<linearGradient id="side"><stop stop-color="#2d465f"/><stop offset=".5" stop-color="#15273a"/><stop offset="1" stop-color="#0d1b2a"/></linearGradient>
+<linearGradient id="blue"><stop stop-color="#a1fcff"/><stop offset=".5" stop-color="#52d9f2"/><stop offset="1" stop-color="#3868b7"/></linearGradient>
+<linearGradient id="violet"><stop stop-color="#d4c4ff"/><stop offset=".5" stop-color="#b495ff"/><stop offset="1" stop-color="#6750b5"/></linearGradient>
+<linearGradient id="hot" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f9b683"/><stop offset=".5" stop-color="#cb7b73" stop-opacity=".45"/><stop offset="1" stop-color="#774c93" stop-opacity=".03"/></linearGradient>
+<pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="#9e7ceb" stroke-width=".5" opacity=".1"/></pattern>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V8" stroke="#a6c9e8" stroke-width="2" opacity=".15"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="6"/></filter>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#01050b" flood-opacity=".65"/></filter>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="4" orient="auto"><path d="M0 0L6 4L0 8" fill="none" stroke="#8edaff" stroke-width="1.4"/></marker>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/><rect width="1200" height="900" fill="url(#grid)"/>
+<g fill="none" stroke="#6e99c2" opacity=".11"><circle cx="600" cy="460" r="340"/><circle cx="600" cy="460" r="285"/><path d="M200 460H1000M600 75V825" stroke-dasharray="3 12"/><ellipse cx="600" cy="760" rx="365" ry="45"/></g>
+<g filter="url(#shadow)"><path d="M544 160Q610 139 674 160V280Q610 310 544 280Z" fill="url(#metal)" stroke="#c1d8e8" stroke-width="2"/><ellipse cx="609" cy="160" rx="65" ry="19" fill="#8baec5" stroke="#c7e4f4"/><path d="M544 190Q610 213 674 190M544 205Q610 228 674 205" fill="none" stroke="#234359" stroke-width="7"/><path d="M596 278L637 418L689 401L623 275Z" fill="url(#metal)" stroke="#b4d2e4" stroke-width="3"/><path d="M612 311L642 389" stroke="#28475e" stroke-width="13"/><ellipse cx="663" cy="413" rx="44" ry="35" fill="url(#metal)" stroke="#bfdce9" stroke-width="4"/><ellipse cx="663" cy="413" rx="22" ry="17" fill="#183047" stroke="#8aaecb" stroke-width="4"/>
+<path d="M304 551H433L525 457H598L663 397H718L789 447L727 501H675L598 568H539L448 632H304Z" fill="url(#metal)" stroke="#adcee3" stroke-width="3"/>
+<path d="M474 535Q447 631 534 695L643 653Q698 588 661 504L604 547L592 592L555 603L537 573Z" fill="#53728f" stroke="#a6c8e1" stroke-width="3"/><path d="M680 466Q754 469 783 537L734 619L650 606L615 573Z" fill="#7798b6" stroke="#bad7ec" stroke-width="3"/>
+<ellipse cx="323" cy="591" rx="49" ry="49" fill="#163148" stroke="#93b9d7" stroke-width="11"/><ellipse cx="323" cy="591" rx="28" ry="28" fill="#0a1e31" stroke="#517898" stroke-width="7"/><path d="M310 550L376 550V632H310" fill="none" stroke="#9bbdd5" stroke-width="5"/><path d="M733 498L867 498V573H754" fill="url(#metal)" stroke="#a7c9dd" stroke-width="3"/><ellipse cx="867" cy="535" rx="26" ry="38" fill="#274c6a" stroke="#93b9d7" stroke-width="6"/></g><path d="M416 707C479 781 667 790 755 711" fill="none" stroke="#9cbeed" stroke-width="2" marker-end="url(#arrow)" opacity=".7"/><path d="M250 591H957" stroke="#8ab8db" stroke-dasharray="5 11" opacity=".3"/></svg>
+
