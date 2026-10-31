@@ -49,8 +49,9 @@ yarn-error.log*
 /public/generated/
 !.env.example
 
-# Provider credentials and local assistant state
-/.projects/
+# Track the Stripe stack recipe; keep credentials and local state private
+/.projects/*
+!/.projects/state.json
 /.claude/
 /.cursor/
 
